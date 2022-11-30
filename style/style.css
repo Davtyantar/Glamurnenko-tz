@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+body {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1220px;
+    min-width: 380px;
+    margin: 0px auto;
+    background-color: black;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oranienbaum', serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0px auto !important;
+}
+
+.header-container {
+    max-width: 1220px;
+    background-color: rgba(0, 0, 0, 0.658);
+    font-family: 'Oranienbaum', serif;
+    height: 70px;
+    padding: 0px 10px;
+}
+
+header {
+    color: white;
+    background-image: url(/images/bg-main.png);
+    background-position: center;
+    height: 700px;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li:hover,
+.nav-contacts a:hover {
+    color: #bead7f !important;
+    transform: scaleX(1.05);
+}
+
+.nav-social img {
+    margin-right: 10px;
+}
+
+.nav-contacts {
+    text-align: center;
+}
+
+.nav-button {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-button img {
+    background-color: white;
+    border-radius: 2px;
+    width: 40px;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    
+}
+
+.header-logo {
+    max-width: 960px;
+    margin: 0px auto;
+    padding-top: 150px;
+}
+
+
+.header-logo h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.header-logo h3 {
+    color: #bead7f;
+    font-size: 24px;
+}
+
+main {
+    max-width: 1440px;
+    background-color: white;
+}
+
+.main {
+    color: black;
+    background-color: white;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.main-discription h1 {
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-discription p {
+    font-size: 19px;
+    padding: 0px 70px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.main-discription img {
+    max-width: 100%;
+}
+
+.main-discription-text-content p {
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 0px 150px;
+    font-size: 18px;
+    text-align: left;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.main-discription-text-content p:last-child {
+    text-align: left;
+    font-size: 16px;
+    padding: 0px 200px;
+}
+
+.card {
+    width: 28%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0px !important;
+    padding: 20px;
+    transition:  .5s;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-info {
+    color: rgba(212, 26, 26, 0.753) !important;
+    font-weight: 100;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px hsl(0deg 0% 39% / 30%); 
+    border: 2px solid rgba(0, 0, 0, 0.329);
+    transition:  .4s;
+}
+
+.dedline,
+.rules {
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.strike-price {
+    color: gray;
+    position: relative;
+}
+
+strike {
+    color: red;
+}
+
+.actual-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.btn {
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 40px;
+    background-color: #dc143c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.btn-dark {
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.order-now-title {
+    font-size: 32px;
+}
+
+table.iksweb {
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+
+table.iksweb td,table.iksweb th {
+	padding: 15px;
+	width: 150px;
+	height: 50px;
+    border: 2px solid #ffd103 ;
+}
+
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}
+
+.contain-image img {
+    width: 960px;
+    max-width: 100%;
+}
+
+.main-process {
+    max-width: 650px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.main-process a {
+    margin-bottom: 30px;
+}
+
+.main-process-title {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-process p {
+    max-width: 300px;
+    padding: 0px 20px;
+}
+
+footer {
+    color: white;
+    height: 210px;
+    position: relative;
+}
+
+.go-top {
+    width: 120px;
+    margin: 0px auto;
+    margin-top: 50px;
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    display: none; 
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding:10px;
+}
+
+.go-top--show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+
+    .nav {
+        display: none;
+    }
+    .nav-button {
+        display: flex;
+    }
+    .nav.open {
+        color: rgb(73, 73, 73);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        row-gap: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        position: fixed;
+        z-index: 5;
+        padding: 46px 30px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .nav-button {
+        position: fixed;
+        z-index: 50;
+        top: 45px;
+        right: 30px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .card {
+        width: 51%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .main-discription-text-content p {
+        padding: 0px 40px;
+    }
+    .main-discription-text-content p:last-child {
+        padding: 0px 60px;
+    }
+    .main-discription p {
+        padding: 0px 40px;;
+    }
+    table.iksweb td,table.iksweb th {
+        padding: 15px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #ffd103 ;
+    }
+}
+
+@media (max-width: 550px) {
+    .card {
+        width: 60%;
+    }
+    .header-logo h3 {
+        width: 250px;
+        margin-top: 20px;
+    }
+    .header-logo {
+        margin-left: 10px;
+    }
+    .card-body {
+        padding: 0px;
+    }
+    table.iksweb td, table.iksweb th {
+        padding: 0px;
+    }
+    .btn-dark {
+        width: 75px;
+    }
+    .header-container {
+        justify-content: start !important;
+    }
+    .nav-social {
+        margin-right: 10px;
+    }
+}
